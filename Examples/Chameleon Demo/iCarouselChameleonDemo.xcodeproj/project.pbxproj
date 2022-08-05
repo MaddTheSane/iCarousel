@@ -161,6 +161,7 @@
 			name = iCarousel;
 			path = ../../iCarousel;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		0153230E14A7F5D800C4A088 /* Resources */ = {
 			isa = PBXGroup;
@@ -219,11 +220,10 @@
 			};
 			buildConfigurationList = 0153203114A71EFF00C4A088 /* Build configuration list for PBXProject "iCarouselChameleonDemo" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				English,
 			);
 			mainGroup = 0153202C14A71EFF00C4A088;
 			productRefGroup = 0153203814A71F0000C4A088 /* Products */;

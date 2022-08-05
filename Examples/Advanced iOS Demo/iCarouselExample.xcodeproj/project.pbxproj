@@ -103,7 +103,7 @@
 				B2E5E72A1461543E00EADB7A /* Resources */,
 				01308D9913491C3500453707 /* Supporting Files */,
 			);
-			path = iCarouselExample;
+			name = iCarouselExample;
 			sourceTree = "<group>";
 		};
 		01308D9913491C3500453707 /* Supporting Files */ = {
@@ -127,6 +127,7 @@
 			name = iCarousel;
 			path = ../../iCarousel;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		B2E5E72A1461543E00EADB7A /* Resources */ = {
 			isa = PBXGroup;
@@ -163,11 +164,11 @@
 		01308D8513491C3500453707 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 1340;
 			};
 			buildConfigurationList = 01308D8813491C3500453707 /* Build configuration list for PBXProject "iCarouselExample" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -292,7 +293,7 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_PARAMETER = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				ONLY_ACTIVE_ARCH = YES;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
@@ -349,7 +350,7 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_PARAMETER = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;

@@ -38,8 +38,8 @@
 		0148358E13A36C3700E687AC /* iCarouselExampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarouselExampleAppDelegate.h; sourceTree = SOURCE_ROOT; };
 		0148359013A36C3700E687AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = SOURCE_ROOT; };
 		0148359213A36C3700E687AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iCarouselExampleViewController.xib; sourceTree = SOURCE_ROOT; };
-		0153202714A6A2B200C4A088 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../Resources/background.png; sourceTree = SOURCE_ROOT; };
-		0153202814A6A2B200C4A088 /* page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = page.png; path = ../Resources/page.png; sourceTree = SOURCE_ROOT; };
+		0153202714A6A2B200C4A088 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		0153202814A6A2B200C4A088 /* page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page.png; sourceTree = "<group>"; };
 		018AE98E179D841B00FB7311 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
 		018BBCB413A375AF005CA505 /* ControlsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControlsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F7B74F14636C7A00F0AE19 /* ItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemView.xib; sourceTree = SOURCE_ROOT; };
@@ -105,7 +105,6 @@
 				01308D9913491C3500453707 /* Supporting Files */,
 			);
 			name = iCarouselControlsDemo;
-			path = iCarouselExample;
 			sourceTree = "<group>";
 		};
 		01308D9913491C3500453707 /* Supporting Files */ = {
@@ -127,7 +126,7 @@
 				0153202814A6A2B200C4A088 /* page.png */,
 			);
 			name = Resources;
-			path = ../../Resources;
+			path = ../Resources;
 			sourceTree = "<group>";
 		};
 		B2E5E746146155E300EADB7A /* iCarousel */ = {
@@ -139,6 +138,7 @@
 			name = iCarousel;
 			path = ../../iCarousel;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 /* End PBXGroup section */
 
@@ -166,11 +166,11 @@
 		01308D8513491C3500453707 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 1340;
 			};
 			buildConfigurationList = 01308D8813491C3500453707 /* Build configuration list for PBXProject "iCarouselControlsDemo" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -247,6 +247,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -254,7 +255,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -268,7 +269,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 			};
@@ -286,6 +287,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "iCarouselTest-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charcoaldesign.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = ControlsDemo;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -303,6 +305,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "iCarouselTest-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.charcoaldesign.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = ControlsDemo;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
