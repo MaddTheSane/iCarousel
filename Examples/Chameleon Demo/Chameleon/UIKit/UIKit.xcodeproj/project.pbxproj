@@ -1356,7 +1356,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.chameleonproject.UIKit;
 				PRODUCT_NAME = UIKit;
 				SYMROOT = ../build;
-				VALID_ARCHS = "i386 x86_64";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -1379,7 +1378,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.chameleonproject.UIKit;
 				PRODUCT_NAME = UIKit;
 				SYMROOT = ../build;
-				VALID_ARCHS = "i386 x86_64";
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
